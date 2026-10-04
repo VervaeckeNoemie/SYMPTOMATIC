@@ -20,7 +20,9 @@ const forms = (s) => {
     meal: { t: 'Repas', sub: "J'ai mangé", ic: '🍽️', f: [{ k: 'r', l: 'Repas', t: 's', o: ['Petit-déjeuner', 'Déjeuner', 'Dîner', 'Collation'] }, { k: 'c', l: "Ce que j'ai mangé", t: 'x' }] },
     nap: { t: 'Sieste', sub: "J'ai fait une sieste", ic: '😴', f: [{ k: 'm', l: 'Durée', t: 'n', u: 'min', step: 5, min: 1, max: 300, def: 20 }, R('fa', 'Fatigue au réveil')] },
     water: { t: 'Eau', sub: 'Bilan de fin de journée', ic: '💧', f: [{ k: 'l', l: "Eau bue aujourd'hui", t: 'n', u: 'L', step: 0.1, min: 0, max: 10, def: 1.5 }] },
-    note: { t: 'Autre', sub: 'Médicament, effort, météo…', ic: '📝', f: [{ k: 'c', l: 'Description', t: 'x' }] },
+    sport: { t: 'Sport', sub: 'Activité physique', ic: '🏃', f: [{ k: 'r', l: 'Activité', t: 's', o: ['Marche', 'Course', 'Vélo', 'Natation', 'Musculation', 'Yoga', 'Autre'] }, { k: 'm', l: 'Durée', t: 'n', u: 'min', step: 5, min: 1, max: 600, def: 30 }, R('i', 'Effort ressenti')] },
+    med: { t: 'Médicament', sub: "J'ai pris un traitement", ic: '💊', f: [{ k: 'c', l: 'Nom et dose', t: 'x' }] },
+    note: { t: 'Autre', sub: 'Météo, voyage, événement…', ic: '📝', f: [{ k: 'c', l: 'Description', t: 'x' }] },
   }
 }
 
