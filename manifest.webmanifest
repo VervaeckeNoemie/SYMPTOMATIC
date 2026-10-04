@@ -1,0 +1,14 @@
+{
+  "name": "Repères – suivi de symptômes",
+  "short_name": "Repères",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2F5F4",
+  "theme_color": "#1E6F6A",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
